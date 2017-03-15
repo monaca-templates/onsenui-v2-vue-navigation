@@ -1,6 +1,6 @@
 <template>
   <v-ons-page>
-    <custom-toolbar :pop="pop">Page 1</custom-toolbar>
+    <custom-toolbar>Page 1</custom-toolbar>
     <p style="text-align: center">
       This is the first page
       <v-ons-button @click="push">Push Page 2</v-ons-button>

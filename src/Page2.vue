@@ -1,12 +1,14 @@
-<template id="page2">
+<template>
   <v-ons-page>
-    <custom-toolbar :pop="pop" :back-label="'Page 1'">Page 2</custom-toolbar>
+    <custom-toolbar :back-label="'Page 1'">Page 2</custom-toolbar>
     <p style="text-align: center">This is the second page</p>
   </v-ons-page>
 </template>
 
 <script>
   import customToolbar from 'customToolbar';
+  import app from 'App';
+
   export default {
     methods: {
       pop() {
