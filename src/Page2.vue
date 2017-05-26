@@ -6,8 +6,8 @@
 </template>
 
 <script>
-  import customToolbar from 'customToolbar';
-  import app from 'App';
+  import customToolbar from './CustomToolbar';
+  import app from './App';
 
   export default {
     methods: {
