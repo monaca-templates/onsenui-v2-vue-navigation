@@ -1,6 +1,6 @@
 {
   "name": "onsenui-v2-vue-navigation",
-  "version": "2.3.2+20170719.1",
+  "version": "2.3.2+20170725.1",
   "description": "",
   "dependencies": {
     "onsenui": "2.4.x",
