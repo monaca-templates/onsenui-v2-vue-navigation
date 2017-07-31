@@ -1,18 +1,12 @@
 {
   "name": "onsenui-v2-vue-navigation",
-  "version": "2.2.6+20170315.1",
+  "version": "2.3.2+20170725.1",
   "description": "",
   "dependencies": {
-    "onsenui": "2.2.x",
-    "vue": "^2.1.10",
-    "vue-onsenui": ">=2.0.0-alpha.1"
-  },
-  "devDependencies": {
-    "babel-preset-es2015": "6.9.0"
-  },
-  "babel": {
-    "presets": [
-      "es2015"
-    ]
+    "onsenui": "2.4.x",
+    "vue": "2.3.x",
+    "vue-onsenui": "2.0.0",
+    "vue-template-compiler": "2.3.x",
+    "vue-loader": "11.0.0"
   }
 }

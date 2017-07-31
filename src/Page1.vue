@@ -9,8 +9,8 @@
 </template>
 
 <script>
-  import customToolbar from 'customToolbar';
-  import page2 from 'Page2';
+  import customToolbar from './CustomToolbar';
+  import page2 from './Page2';
   export default {
      methods: {
        pop(){
