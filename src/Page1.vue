@@ -21,6 +21,7 @@
        }
      },
      props: ['pageStack'],
-     components: { customToolbar }
+     components: { customToolbar },
+     key: 'key_page1',
   }
 </script>
