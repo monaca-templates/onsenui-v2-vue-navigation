@@ -3,8 +3,8 @@ import VueOnsen from 'vue-onsenui';
 
 import ons from 'onsenui';
 // Onsen UI Styling and Icons
-require('onsenui/css/onsen-css-components.css');
-require('onsenui/css/onsenui.css');
+import 'onsenui/css/onsen-css-components.css';
+import 'onsenui/css/onsenui.css';
 
 import App from './App';
 
