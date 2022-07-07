@@ -9,19 +9,21 @@
 </template>
 
 <script>
-  import customToolbar from './CustomToolbar';
-  import page2 from './Page2';
+  import customToolbar from './CustomToolbar.vue';
+  import page2 from './Page2.vue';
+
   export default {
-     methods: {
-       pop(){
-         this.pageStack.pop();
-       },
-       push() {
-         this.pageStack.push(page2);
-       }
-     },
-     props: ['pageStack'],
-     components: { customToolbar },
-     key: 'key_page1',
+    methods: {
+      pop(){
+        this.$emit('update:pageStack', this.pageStack.slice(0, -1));
+      },
+      push() {
+        this.$emit('update:pageStack', [...this.pageStack, page2]);
+      }
+    },
+    props: ['pageStack'],
+    components: { customToolbar },
+    key: 'key_page1',
+    emits: ['update:pageStack']
   }
 </script>

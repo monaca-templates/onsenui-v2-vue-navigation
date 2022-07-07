@@ -6,17 +6,17 @@
 </template>
 
 <script>
-  import customToolbar from './CustomToolbar';
-  import app from './App';
+  import customToolbar from './CustomToolbar.vue';
 
   export default {
     methods: {
       pop() {
-        this.pageStack.pop();
-      } 
+        this.$emit('update:pageStack', this.pageStack.slice(0, -1));
+      }
     },
     props: ['pageStack'],
     components: { customToolbar },
     key: 'key_page2',
+    emits: ['update:pageStack']
   }
 </script>
