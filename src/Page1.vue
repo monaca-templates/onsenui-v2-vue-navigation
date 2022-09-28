@@ -9,8 +9,8 @@
 </template>
 
 <script>
-  import customToolbar from './CustomToolbar';
-  import page2 from './Page2';
+  import customToolbar from './CustomToolbar.vue';
+  import page2 from './Page2.vue';
   export default {
      methods: {
        pop(){
