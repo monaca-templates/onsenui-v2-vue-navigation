@@ -6,8 +6,8 @@
 </template>
 
 <script>
-  import customToolbar from './CustomToolbar';
-  import app from './App';
+  import customToolbar from './CustomToolbar.vue';
+  import app from './App.vue';
 
   export default {
     methods: {
